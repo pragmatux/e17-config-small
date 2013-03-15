@@ -1,0 +1,16 @@
+Source: e17-config-small
+Section: config
+Priority: extra
+Maintainer: Ryan Kuester <rkuester@insymbols.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Vcs-Git: http://git.pragmatux.org/e17-config-small.git
+Vcs-Browser: http://git.pragmatux.org/e17-config-small.git
+
+Package: e17-config-small
+Architecture: all
+Depends: ${misc:Depends}
+Description: Enlightenment configuration for small screens
+ This is configuration for Enlightenment, running as the system-wide GUI.
+ .
+ This variant for small screens, like those on mobile phones.
